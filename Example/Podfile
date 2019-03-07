@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XDComponent_Example' do
+  pod 'XDComponent', :path => '../'
+
+  target 'XDComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
