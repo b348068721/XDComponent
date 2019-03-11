@@ -1,0 +1,6 @@
+framework module Pods_XDComponent_Tests {
+  umbrella header "Pods-XDComponent_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

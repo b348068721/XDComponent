@@ -1,0 +1,16 @@
+PODS:
+  - XDComponent (1.0)
+
+DEPENDENCIES:
+  - XDComponent (from `../`)
+
+EXTERNAL SOURCES:
+  XDComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XDComponent: 05993901d9857bfb847bd4d8a8bf8663c8da0ae7
+
+PODFILE CHECKSUM: 766086e89909ff4b56cf68bf84537043cbf14515
+
+COCOAPODS: 1.5.3

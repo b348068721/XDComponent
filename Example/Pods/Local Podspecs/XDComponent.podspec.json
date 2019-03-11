@@ -1,0 +1,27 @@
+{
+  "name": "XDComponent",
+  "version": "1.0",
+  "summary": "try to new XDComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/b348068721/XDComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "b348068721": "guanxidonghrb14@163.com"
+  },
+  "source": {
+    "git": "https://github.com/b348068721/XDComponent.git",
+    "tag": "1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XDComponent/Classes/**/*",
+  "resource_bundles": {
+    "XDComponent": [
+      "XDComponent/Assets/*"
+    ]
+  }
+}

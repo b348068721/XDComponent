@@ -7,7 +7,8 @@
 //
 
 #import "XDViewController.h"
-
+#import "XDTestViewController.h"
+#import "XDTest.h"
 @interface XDViewController ()
 
 @end
@@ -18,7 +19,23 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSArray *arr;
+    NSInteger dataCount = arr.count;
+    NSInteger rowHeight = 40;
+    NSInteger itemHeight = (dataCount/3 + (dataCount%3 ? 1 : 0)) * rowHeight;
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    btn.backgroundColor = [UIColor blueColor];
+    XDTest *test = [[XDTest alloc]init];
+    [test setTestLog];
 }
+
+- (void)click {
+    XDTestViewController *vc = [[XDTestViewController alloc]init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
 
 - (void)didReceiveMemoryWarning
 {
