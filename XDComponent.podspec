@@ -31,7 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'XDComponent/Classes/**/*'
-  
+  s.subspec 'BaseViewController' do |ss|
+      ss.source_files = 'XDComponent/Classes/BaseViewController/*.{h,m}'
+  end
+  s.subspec 'Test' do |ss|
+      ss.source_files = 'XDComponent/Classes/Test/*.{h,m}'
+  end
   s.resource_bundles = {
     'XDComponent' => ['XDComponent/Assets/*']
   }

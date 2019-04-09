@@ -1,7 +1,7 @@
 {
   "name": "XDComponent",
-  "version": "1.0",
-  "summary": "try to new XDComponent.",
+  "version": "1.1",
+  "summary": "try to new XDComponent.init controller with xib",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/b348068721/XDComponent",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/b348068721/XDComponent.git",
-    "tag": "1.0"
+    "tag": "1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,5 +23,15 @@
     "XDComponent": [
       "XDComponent/Assets/*"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "BaseViewController",
+      "source_files": "XDComponent/Classes/BaseViewController/*.{h,m}"
+    },
+    {
+      "name": "Test",
+      "source_files": "XDComponent/Classes/Test/*.{h,m}"
+    }
+  ]
 }

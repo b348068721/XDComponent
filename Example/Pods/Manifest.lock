@@ -1,16 +1,16 @@
 PODS:
-  - XDComponent (1.0)
+  - XDComponent/BaseViewController (1.1)
 
 DEPENDENCIES:
-  - XDComponent (from `../`)
+  - XDComponent/BaseViewController (from `../`)
 
 EXTERNAL SOURCES:
   XDComponent:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XDComponent: 05993901d9857bfb847bd4d8a8bf8663c8da0ae7
+  XDComponent: bcf9f006eb58bcc8ed616871631fa949cacefd0e
 
-PODFILE CHECKSUM: 766086e89909ff4b56cf68bf84537043cbf14515
+PODFILE CHECKSUM: 730e05af1b80d411c397875fba1e5bb9bbc65452
 
 COCOAPODS: 1.5.3
