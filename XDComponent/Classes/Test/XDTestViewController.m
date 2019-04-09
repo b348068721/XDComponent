@@ -17,7 +17,7 @@
 - (instancetype)init {
     self = [super initWithNibName:@"XDTestViewController" bundle:[self wg_subBundleWithBundleName:@"XDComponent" targetClass:[self class]]];
     if (self) {
-        
+    
     }
     return self;
 }
