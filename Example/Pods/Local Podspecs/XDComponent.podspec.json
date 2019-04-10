@@ -1,8 +1,8 @@
 {
   "name": "XDComponent",
-  "version": "1.1",
+  "version": "1.1.2",
   "summary": "try to new XDComponent.init controller with xib",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "'Component Test'",
   "homepage": "https://github.com/b348068721/XDComponent",
   "license": {
     "type": "MIT",
@@ -13,12 +13,13 @@
   },
   "source": {
     "git": "https://github.com/b348068721/XDComponent.git",
-    "tag": "1.1"
+    "tag": "1.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XDComponent/Classes/**/*",
+  "public_header_files": "XDComponent/Classes/XDComponent.h",
+  "source_files": "XDComponent/Classes/XDComponent.h",
   "resource_bundles": {
     "XDComponent": [
       "XDComponent/Assets/*"
@@ -27,11 +28,18 @@
   "subspecs": [
     {
       "name": "BaseViewController",
-      "source_files": "XDComponent/Classes/BaseViewController/*.{h,m}"
+      "source_files": "XDComponent/Classes/BaseViewController/*.{h,m}",
+      "public_header_files": "XDComponent/Classes/BaseViewController/BaseViewController.h"
     },
     {
       "name": "Test",
-      "source_files": "XDComponent/Classes/Test/*.{h,m}"
+      "source_files": "XDComponent/Classes/Test/*.{h,m}",
+      "dependencies": {
+        "XDComponent/BaseViewController": [
+
+        ]
+      },
+      "public_header_files": "XDComponent/Classes/Test/*.h"
     }
   ]
 }

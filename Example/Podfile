@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'XDComponent_Example' do
-  pod 'XDComponent/BaseViewController', :path => '../'
+  pod 'XDComponent', :path => '../'
 
   target 'XDComponent_Tests' do
     inherit! :search_paths

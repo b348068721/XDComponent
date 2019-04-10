@@ -7,20 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10BA498887BADCFF5AFFB3F4FBD3BAA9 /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E9C86CE8BD7263AC5D7790B93DB0ED /* BaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		419CBC77F503F9F086820060980EF330 /* XDComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E798B1C4A72C2DC332F03BB99AD133 /* XDComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43CF89F3E40F5D9A6D5AE01B5E72F24F /* Pods-XDComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D14E82A5D7B36D85D7B297DA2032621 /* Pods-XDComponent_Tests-dummy.m */; };
-		5EC1D0B9F44A5ECAAC9F7A7E044D0D26 /* XDComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F74B0532D211075EB2B30A887E701BBA /* XDComponent-dummy.m */; };
-		7199579B453208122FF1C7325C8FA527 /* Pods-XDComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A86A33F212E3A552FE9434D152881A /* Pods-XDComponent_Example-dummy.m */; };
-		7A890FEF7C82C98DE0B60FE9F289DBBA /* Pods-XDComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72FD6D8C882BB3D07DD2A8B3C7056653 /* Pods-XDComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1E74AB318E89CF70C2C24CA83D55333 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43423236C636FE6CFF26A39D763D16BA /* BaseViewController.m */; };
+		0BFFCE0EFA9C279E159EC99941F8AEF2 /* XDComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB8BB988E785D224F62A5B6A5FA2001 /* XDComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E34BF9B0EF5B2E0B81C51EF80AF8208 /* XDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD5B9F73381E13667185A26C3F86F3E /* XDTest.m */; };
+		2F66D3D0B9EAB856F1B82725E4C7B4A0 /* XDTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 84397361C23F5774B5CF06148A6A3CCF /* XDTestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		392B9034D6CA7DCC872DC6BF16F2D28E /* XDComponent.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7250FA95B0EF0E09D96161E7BBBA43BE /* XDComponent.bundle */; };
+		43CF89F3E40F5D9A6D5AE01B5E72F24F /* Pods-XDComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD0BF5DE761DFF095B7DD0C94EA372F /* Pods-XDComponent_Tests-dummy.m */; };
+		7199579B453208122FF1C7325C8FA527 /* Pods-XDComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 688A82FAF98FE0C1546CA0B0AB8D6409 /* Pods-XDComponent_Example-dummy.m */; };
+		75709F947F852DCA2BAA99575FCD04E3 /* XDComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73AFECAADE7B19772605F950BF1240D4 /* XDComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A890FEF7C82C98DE0B60FE9F289DBBA /* Pods-XDComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE952C9733972A8888EBB5B6B1C864D1 /* Pods-XDComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8B1625CACC07C62B29FCA3A8B35E33 /* XDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B318DEA5EF52791A27BF560B3B8804A /* XDTestViewController.m */; };
+		A6D26D6312E31CBF4F593BFA03B078A2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FB5A635AD5D64A7A33250597A3ADDB /* BaseViewController.m */; };
+		A8B81F4E86A1EA404182AAC8C7157ECC /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E3E6D0A9EF3815760954A5038DC894 /* BaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA0B33EAA32E11EBA4D727C4E6E683E9 /* XDTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FACAB834F38548D0CEBEA3BD04FACE /* XDTestViewController.xib */; };
+		ABA31B54988BAA8716DF9C6988AC6C91 /* XDComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F42DF7252C4D897B54CBB8DBBEAB61AB /* XDComponent-dummy.m */; };
 		B22DDE27DA5060143E4004D8E13B28F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CE612047F820FE49C242AE0A80182691 /* XDTest.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCFCC8A5D9B9AB40B1DE5A8A945C9D9 /* XDTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1AB019BBA555575A05949AD76E9B113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		E4FA88B74E5F84D3406B6F002003350F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		F931966450C5E0408BEAC95C44374D4D /* Pods-XDComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 294EACC55C15FC4D2A1C1D1A3D35C7B2 /* Pods-XDComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F931966450C5E0408BEAC95C44374D4D /* Pods-XDComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F5BDD49A4C62D82A72FF73C023ADCF /* Pods-XDComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0B7A02FB252CE3E12D31DAEA3EB3EAE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E243F805069D284D215E92709BDE0E65;
+			remoteInfo = "XDComponent-XDComponent";
+		};
 		E842275E99C8AB78975508ED9BB3DFA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -38,42 +52,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		027897A294004CD6FB47A8502F6C3225 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		07A86A33F212E3A552FE9434D152881A /* Pods-XDComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDComponent_Example-dummy.m"; sourceTree = "<group>"; };
-		0B7117B45EEF75AC8DBD969A2D062CCB /* Pods-XDComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0D5A901F7868E89A27F025BC517069ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A966348EA025EB9E4F50BD1AF337F64 /* Pods-XDComponent_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDComponent_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		20B0FD8553D532C978EF3874E65A459C /* XDComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XDComponent.framework; path = XDComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		294EACC55C15FC4D2A1C1D1A3D35C7B2 /* Pods-XDComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XDComponent_Example-umbrella.h"; sourceTree = "<group>"; };
-		2D14E82A5D7B36D85D7B297DA2032621 /* Pods-XDComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDComponent_Tests-dummy.m"; sourceTree = "<group>"; };
-		30E9C86CE8BD7263AC5D7790B93DB0ED /* BaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = XDComponent/Classes/BaseViewController/BaseViewController.h; sourceTree = "<group>"; };
-		42DEFAE142A79F41C89BFD3F96C9FD1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		42ECE98CD8137C375C1A533BA66FA6E7 /* XDComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XDComponent.modulemap; sourceTree = "<group>"; };
-		43423236C636FE6CFF26A39D763D16BA /* BaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = XDComponent/Classes/BaseViewController/BaseViewController.m; sourceTree = "<group>"; };
-		53F8A9BC2A7C4B92617BEEB4A9ADDA75 /* Pods-XDComponent_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDComponent_Tests-resources.sh"; sourceTree = "<group>"; };
-		68D69FCB512B3477217609F1DC67EF77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68E798B1C4A72C2DC332F03BB99AD133 /* XDComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDComponent-umbrella.h"; sourceTree = "<group>"; };
-		6B7360534A49A3A5381301C08E9D392E /* XDComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XDComponent.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		72FD6D8C882BB3D07DD2A8B3C7056653 /* Pods-XDComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XDComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
-		78C01B151023A63156BC18A2AC40CCD8 /* XDComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDComponent-prefix.pch"; sourceTree = "<group>"; };
-		7C05CEB22F924FE2F5090DC2A9BB9571 /* Pods-XDComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7E46FA1C875EDAB79DC87B57C0031EB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8907C3E32A57AE63DD8BBAB472BE4874 /* Pods-XDComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		91F7831EC7EBC41BA8570B920C3EBD9C /* Pods-XDComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
-		961492CF91E2E9FEB44CAB0FB8CEEB0C /* Pods_XDComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XDComponent_Tests.framework; path = "Pods-XDComponent_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E99ADDB024F962D182D3B778BDE1E38 /* Pods_XDComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XDComponent_Example.framework; path = "Pods-XDComponent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B203844858EBCCBA7A0963212770EEBB /* Pods-XDComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B6025940B2FAFAB8DBEA8F6A83D897B1 /* Pods-XDComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C1C4834A31EB1F2D6D5B3CD22FD3A214 /* Pods-XDComponent_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDComponent_Example-resources.sh"; sourceTree = "<group>"; };
-		C7CA7DBF793DF5233500DE25238482AA /* XDComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDComponent.xcconfig; sourceTree = "<group>"; };
+		03EBB8A4627968FA7985358BE570E807 /* Pods-XDComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		09A965D721AC7BDAD181B31FF01CEBD6 /* Pods-XDComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		169BFD64E7483195965A6D6587E6D3F6 /* Pods-XDComponent_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDComponent_Tests-Info.plist"; sourceTree = "<group>"; };
+		1D2920399C3D25573B4DB734F3D3B7CC /* Pods-XDComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2118A7C85D053F4684E6BA858C18FA93 /* XDComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XDComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		26E30280587A1C4241296542E03A710F /* XDComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XDComponent.framework; path = XDComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27EAA84EDAA6575D58F60A8283020F9A /* Pods_XDComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XDComponent_Example.framework; path = "Pods-XDComponent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FACAB834F38548D0CEBEA3BD04FACE /* XDTestViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = XDTestViewController.xib; path = XDComponent/Assets/XDTestViewController.xib; sourceTree = "<group>"; };
+		4B318DEA5EF52791A27BF560B3B8804A /* XDTestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XDTestViewController.m; path = XDComponent/Classes/Test/XDTestViewController.m; sourceTree = "<group>"; };
+		4E5BAACDBEA9F0E88E6AF71584F00CBB /* Pods-XDComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		57B24283A335A2192FD2F057C24C7F56 /* Pods-XDComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A40EB44F9A798A8024483F9B56CAB02 /* XDComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDComponent.xcconfig; sourceTree = "<group>"; };
+		688A82FAF98FE0C1546CA0B0AB8D6409 /* Pods-XDComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDComponent_Example-dummy.m"; sourceTree = "<group>"; };
+		7250FA95B0EF0E09D96161E7BBBA43BE /* XDComponent.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XDComponent.bundle; path = "XDComponent-XDComponent.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73AFECAADE7B19772605F950BF1240D4 /* XDComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDComponent-umbrella.h"; sourceTree = "<group>"; };
+		77CC59C5356A476C0E1D905AB613F094 /* Pods-XDComponent_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDComponent_Example-Info.plist"; sourceTree = "<group>"; };
+		83F5BDD49A4C62D82A72FF73C023ADCF /* Pods-XDComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XDComponent_Example-umbrella.h"; sourceTree = "<group>"; };
+		84397361C23F5774B5CF06148A6A3CCF /* XDTestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XDTestViewController.h; path = XDComponent/Classes/Test/XDTestViewController.h; sourceTree = "<group>"; };
+		86DE78ECA83776932FF15FDDB4B552CC /* Pods-XDComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8C8D55456C42B031807D216FD1B0E889 /* Pods-XDComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E49957C6ABED0554CABAA64C7912257 /* Pods-XDComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		91041E654188A1DEE61923EEA0DDEA58 /* Pods-XDComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F4CD8D1CCCBE3488157E5D53BD4AAFA /* XDComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XDComponent.modulemap; sourceTree = "<group>"; };
+		A6325D23C8010DFBCAA5EDB2E48D0F69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B5E3E6D0A9EF3815760954A5038DC894 /* BaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = XDComponent/Classes/BaseViewController/BaseViewController.h; sourceTree = "<group>"; };
+		B622469659277D796006C1AA73F105DB /* Pods-XDComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDComponent_Example.modulemap"; sourceTree = "<group>"; };
+		B7952A6F000574DFB52D3DDE08AA8125 /* ResourceBundle-XDComponent-XDComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XDComponent-XDComponent-Info.plist"; sourceTree = "<group>"; };
+		BAB8BB988E785D224F62A5B6A5FA2001 /* XDComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XDComponent.h; path = XDComponent/Classes/XDComponent.h; sourceTree = "<group>"; };
+		BB6952A3239DE7F2BF89A94B6CF709AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CDD1D901BED34EA0D09BC3EA6553497B /* Pods-XDComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1458FB3F04FB457FC36FD843A66FBAA /* Pods-XDComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DE56CCFB8EF7A14E411F9CEC6BD77A48 /* Pods-XDComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDComponent_Tests.modulemap"; sourceTree = "<group>"; };
-		E7F5C4D35DE126B551E2CBDC46D636E8 /* Pods-XDComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDComponent_Example.modulemap"; sourceTree = "<group>"; };
-		F74B0532D211075EB2B30A887E701BBA /* XDComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XDComponent-dummy.m"; sourceTree = "<group>"; };
-		F899867569DBD8014BAE7108BB4AE43C /* Pods-XDComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CC5ECC2A89EEAADC4A948EB523546DA2 /* XDComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XDComponent-Info.plist"; sourceTree = "<group>"; };
+		CE952C9733972A8888EBB5B6B1C864D1 /* Pods-XDComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XDComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D1039AB2CA652D23EAA10C64D46839EC /* Pods-XDComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDComponent_Tests.modulemap"; sourceTree = "<group>"; };
+		D1FB5A635AD5D64A7A33250597A3ADDB /* BaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = XDComponent/Classes/BaseViewController/BaseViewController.m; sourceTree = "<group>"; };
+		DCD5B9F73381E13667185A26C3F86F3E /* XDTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XDTest.m; path = XDComponent/Classes/Test/XDTest.m; sourceTree = "<group>"; };
+		E173131BFFAF0CBA0B1591E9A5BE8634 /* XDComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDComponent-prefix.pch"; sourceTree = "<group>"; };
+		EA60028406A2A6E4963FA6FE1805C42F /* Pods_XDComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XDComponent_Tests.framework; path = "Pods-XDComponent_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42DF7252C4D897B54CBB8DBBEAB61AB /* XDComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XDComponent-dummy.m"; sourceTree = "<group>"; };
+		FBCFCC8A5D9B9AB40B1DE5A8A945C9D9 /* XDTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XDTest.h; path = XDComponent/Classes/Test/XDTest.h; sourceTree = "<group>"; };
+		FFD0BF5DE761DFF095B7DD0C94EA372F /* Pods-XDComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDComponent_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,97 +120,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2091F3DCC1D84B6FD42E0BC3B69E05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1214F6504F9F354DCFF73C276891DD7C /* Products */ = {
+		035B4C0293B3D798E2D9C080CD40AFFF /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				9E99ADDB024F962D182D3B778BDE1E38 /* Pods_XDComponent_Example.framework */,
-				961492CF91E2E9FEB44CAB0FB8CEEB0C /* Pods_XDComponent_Tests.framework */,
-				20B0FD8553D532C978EF3874E65A459C /* XDComponent.framework */,
+				FBCFCC8A5D9B9AB40B1DE5A8A945C9D9 /* XDTest.h */,
+				DCD5B9F73381E13667185A26C3F86F3E /* XDTest.m */,
+				84397361C23F5774B5CF06148A6A3CCF /* XDTestViewController.h */,
+				4B318DEA5EF52791A27BF560B3B8804A /* XDTestViewController.m */,
 			);
-			name = Products;
+			name = Test;
 			sourceTree = "<group>";
 		};
-		1D1D53562026BF2AD3FB05C45766B45E /* Pods-XDComponent_Tests */ = {
+		24E816731984AC246EDA25DF739F7A05 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				68D69FCB512B3477217609F1DC67EF77 /* Info.plist */,
-				DE56CCFB8EF7A14E411F9CEC6BD77A48 /* Pods-XDComponent_Tests.modulemap */,
-				B6025940B2FAFAB8DBEA8F6A83D897B1 /* Pods-XDComponent_Tests-acknowledgements.markdown */,
-				7C05CEB22F924FE2F5090DC2A9BB9571 /* Pods-XDComponent_Tests-acknowledgements.plist */,
-				2D14E82A5D7B36D85D7B297DA2032621 /* Pods-XDComponent_Tests-dummy.m */,
-				1A966348EA025EB9E4F50BD1AF337F64 /* Pods-XDComponent_Tests-frameworks.sh */,
-				53F8A9BC2A7C4B92617BEEB4A9ADDA75 /* Pods-XDComponent_Tests-resources.sh */,
-				72FD6D8C882BB3D07DD2A8B3C7056653 /* Pods-XDComponent_Tests-umbrella.h */,
-				CDD1D901BED34EA0D09BC3EA6553497B /* Pods-XDComponent_Tests.debug.xcconfig */,
-				D1458FB3F04FB457FC36FD843A66FBAA /* Pods-XDComponent_Tests.release.xcconfig */,
-			);
-			name = "Pods-XDComponent_Tests";
-			path = "Target Support Files/Pods-XDComponent_Tests";
-			sourceTree = "<group>";
-		};
-		2039FDEE4FF4ACA86B98B17E12909A0B /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				66988035BBB90CC9D92CC3047F6ED47C /* Pods-XDComponent_Example */,
-				1D1D53562026BF2AD3FB05C45766B45E /* Pods-XDComponent_Tests */,
+				D45DCB0956457B8D5545AD6CC65C3720 /* Pods-XDComponent_Example */,
+				988FF4AD637E2CA16F9A7A0D0857CE63 /* Pods-XDComponent_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		28EE92ABE8DF972B917C4D3ED106627F /* Support Files */ = {
+		4718EBE9FD95A39AA0C708E16C06D25D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0D5A901F7868E89A27F025BC517069ED /* Info.plist */,
-				42ECE98CD8137C375C1A533BA66FA6E7 /* XDComponent.modulemap */,
-				C7CA7DBF793DF5233500DE25238482AA /* XDComponent.xcconfig */,
-				F74B0532D211075EB2B30A887E701BBA /* XDComponent-dummy.m */,
-				78C01B151023A63156BC18A2AC40CCD8 /* XDComponent-prefix.pch */,
-				68E798B1C4A72C2DC332F03BB99AD133 /* XDComponent-umbrella.h */,
+				72552777D96E168512665E9A5B500439 /* XDComponent */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XDComponent";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3C0C68CEF5D1EC65142DA6229FC3395B /* XDComponent */ = {
+		606EF9BF0DD60DEB79952BB219C14D6E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D1BC2F6D3F83C35799D3EFA6174642B5 /* BaseViewController */,
-				706C44A2E9AD744B4E340406B6F16558 /* Pod */,
-				28EE92ABE8DF972B917C4D3ED106627F /* Support Files */,
+				BB6952A3239DE7F2BF89A94B6CF709AB /* LICENSE */,
+				A6325D23C8010DFBCAA5EDB2E48D0F69 /* README.md */,
+				2118A7C85D053F4684E6BA858C18FA93 /* XDComponent.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6D38E838ED4C9549EA9213993AE04DDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27EAA84EDAA6575D58F60A8283020F9A /* Pods_XDComponent_Example.framework */,
+				EA60028406A2A6E4963FA6FE1805C42F /* Pods_XDComponent_Tests.framework */,
+				7250FA95B0EF0E09D96161E7BBBA43BE /* XDComponent.bundle */,
+				26E30280587A1C4241296542E03A710F /* XDComponent.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72552777D96E168512665E9A5B500439 /* XDComponent */ = {
+			isa = PBXGroup;
+			children = (
+				BAB8BB988E785D224F62A5B6A5FA2001 /* XDComponent.h */,
+				9E19657C8B30AB495C613F1F5E24E779 /* BaseViewController */,
+				606EF9BF0DD60DEB79952BB219C14D6E /* Pod */,
+				E624EDE3762CE85B03E56E58A7B0970B /* Resources */,
+				CC569D3885FD7524BC2F7E646B43597C /* Support Files */,
+				035B4C0293B3D798E2D9C080CD40AFFF /* Test */,
 			);
 			name = XDComponent;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		66988035BBB90CC9D92CC3047F6ED47C /* Pods-XDComponent_Example */ = {
+		988FF4AD637E2CA16F9A7A0D0857CE63 /* Pods-XDComponent_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				7E46FA1C875EDAB79DC87B57C0031EB7 /* Info.plist */,
-				E7F5C4D35DE126B551E2CBDC46D636E8 /* Pods-XDComponent_Example.modulemap */,
-				B203844858EBCCBA7A0963212770EEBB /* Pods-XDComponent_Example-acknowledgements.markdown */,
-				0B7117B45EEF75AC8DBD969A2D062CCB /* Pods-XDComponent_Example-acknowledgements.plist */,
-				07A86A33F212E3A552FE9434D152881A /* Pods-XDComponent_Example-dummy.m */,
-				91F7831EC7EBC41BA8570B920C3EBD9C /* Pods-XDComponent_Example-frameworks.sh */,
-				C1C4834A31EB1F2D6D5B3CD22FD3A214 /* Pods-XDComponent_Example-resources.sh */,
-				294EACC55C15FC4D2A1C1D1A3D35C7B2 /* Pods-XDComponent_Example-umbrella.h */,
-				8907C3E32A57AE63DD8BBAB472BE4874 /* Pods-XDComponent_Example.debug.xcconfig */,
-				F899867569DBD8014BAE7108BB4AE43C /* Pods-XDComponent_Example.release.xcconfig */,
+				D1039AB2CA652D23EAA10C64D46839EC /* Pods-XDComponent_Tests.modulemap */,
+				09A965D721AC7BDAD181B31FF01CEBD6 /* Pods-XDComponent_Tests-acknowledgements.markdown */,
+				8C8D55456C42B031807D216FD1B0E889 /* Pods-XDComponent_Tests-acknowledgements.plist */,
+				FFD0BF5DE761DFF095B7DD0C94EA372F /* Pods-XDComponent_Tests-dummy.m */,
+				169BFD64E7483195965A6D6587E6D3F6 /* Pods-XDComponent_Tests-Info.plist */,
+				CE952C9733972A8888EBB5B6B1C864D1 /* Pods-XDComponent_Tests-umbrella.h */,
+				4E5BAACDBEA9F0E88E6AF71584F00CBB /* Pods-XDComponent_Tests.debug.xcconfig */,
+				91041E654188A1DEE61923EEA0DDEA58 /* Pods-XDComponent_Tests.release.xcconfig */,
 			);
-			name = "Pods-XDComponent_Example";
-			path = "Target Support Files/Pods-XDComponent_Example";
-			sourceTree = "<group>";
-		};
-		706C44A2E9AD744B4E340406B6F16558 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				027897A294004CD6FB47A8502F6C3225 /* LICENSE */,
-				42DEFAE142A79F41C89BFD3F96C9FD1D /* README.md */,
-				6B7360534A49A3A5381301C08E9D392E /* XDComponent.podspec */,
-			);
-			name = Pod;
+			name = "Pods-XDComponent_Tests";
+			path = "Target Support Files/Pods-XDComponent_Tests";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -202,32 +217,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9E828AD88DB61307821D4B5AC12E8908 /* Development Pods */ = {
+		9E19657C8B30AB495C613F1F5E24E779 /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3C0C68CEF5D1EC65142DA6229FC3395B /* XDComponent */,
+				B5E3E6D0A9EF3815760954A5038DC894 /* BaseViewController.h */,
+				D1FB5A635AD5D64A7A33250597A3ADDB /* BaseViewController.m */,
 			);
-			name = "Development Pods";
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+		CC569D3885FD7524BC2F7E646B43597C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7952A6F000574DFB52D3DDE08AA8125 /* ResourceBundle-XDComponent-XDComponent-Info.plist */,
+				9F4CD8D1CCCBE3488157E5D53BD4AAFA /* XDComponent.modulemap */,
+				5A40EB44F9A798A8024483F9B56CAB02 /* XDComponent.xcconfig */,
+				F42DF7252C4D897B54CBB8DBBEAB61AB /* XDComponent-dummy.m */,
+				CC5ECC2A89EEAADC4A948EB523546DA2 /* XDComponent-Info.plist */,
+				E173131BFFAF0CBA0B1591E9A5BE8634 /* XDComponent-prefix.pch */,
+				73AFECAADE7B19772605F950BF1240D4 /* XDComponent-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XDComponent";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				24390EFD555DD124430DFF9724065945 /* Podfile */,
-				9E828AD88DB61307821D4B5AC12E8908 /* Development Pods */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4718EBE9FD95A39AA0C708E16C06D25D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1214F6504F9F354DCFF73C276891DD7C /* Products */,
-				2039FDEE4FF4ACA86B98B17E12909A0B /* Targets Support Files */,
+				6D38E838ED4C9549EA9213993AE04DDD /* Products */,
+				24E816731984AC246EDA25DF739F7A05 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D1BC2F6D3F83C35799D3EFA6174642B5 /* BaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				30E9C86CE8BD7263AC5D7790B93DB0ED /* BaseViewController.h */,
-				43423236C636FE6CFF26A39D763D16BA /* BaseViewController.m */,
-			);
-			name = BaseViewController;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -238,9 +260,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D45DCB0956457B8D5545AD6CC65C3720 /* Pods-XDComponent_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B622469659277D796006C1AA73F105DB /* Pods-XDComponent_Example.modulemap */,
+				57B24283A335A2192FD2F057C24C7F56 /* Pods-XDComponent_Example-acknowledgements.markdown */,
+				8E49957C6ABED0554CABAA64C7912257 /* Pods-XDComponent_Example-acknowledgements.plist */,
+				688A82FAF98FE0C1546CA0B0AB8D6409 /* Pods-XDComponent_Example-dummy.m */,
+				1D2920399C3D25573B4DB734F3D3B7CC /* Pods-XDComponent_Example-frameworks.sh */,
+				77CC59C5356A476C0E1D905AB613F094 /* Pods-XDComponent_Example-Info.plist */,
+				83F5BDD49A4C62D82A72FF73C023ADCF /* Pods-XDComponent_Example-umbrella.h */,
+				03EBB8A4627968FA7985358BE570E807 /* Pods-XDComponent_Example.debug.xcconfig */,
+				86DE78ECA83776932FF15FDDB4B552CC /* Pods-XDComponent_Example.release.xcconfig */,
+			);
+			name = "Pods-XDComponent_Example";
+			path = "Target Support Files/Pods-XDComponent_Example";
+			sourceTree = "<group>";
+		};
+		E624EDE3762CE85B03E56E58A7B0970B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34FACAB834F38548D0CEBEA3BD04FACE /* XDTestViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2A2329C4766DC7E4AB7AF6EDEE8F52E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B81F4E86A1EA404182AAC8C7157ECC /* BaseViewController.h in Headers */,
+				75709F947F852DCA2BAA99575FCD04E3 /* XDComponent-umbrella.h in Headers */,
+				0BFFCE0EFA9C279E159EC99941F8AEF2 /* XDComponent.h in Headers */,
+				CE612047F820FE49C242AE0A80182691 /* XDTest.h in Headers */,
+				2F66D3D0B9EAB856F1B82725E4C7B4A0 /* XDTestViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3281E9F0B45D820C8C54F1E5ED3B210A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,15 +313,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A890FEF7C82C98DE0B60FE9F289DBBA /* Pods-XDComponent_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5C090334FE0B9BC2EBE362122FACFD3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10BA498887BADCFF5AFFB3F4FBD3BAA9 /* BaseViewController.h in Headers */,
-				419CBC77F503F9F086820060980EF330 /* XDComponent-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +335,7 @@
 			);
 			name = "Pods-XDComponent_Example";
 			productName = "Pods-XDComponent_Example";
-			productReference = 9E99ADDB024F962D182D3B778BDE1E38 /* Pods_XDComponent_Example.framework */;
+			productReference = 27EAA84EDAA6575D58F60A8283020F9A /* Pods_XDComponent_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		403ED72A75D22761016DC0E1EEB9EB08 /* Pods-XDComponent_Tests */ = {
@@ -304,25 +354,43 @@
 			);
 			name = "Pods-XDComponent_Tests";
 			productName = "Pods-XDComponent_Tests";
-			productReference = 961492CF91E2E9FEB44CAB0FB8CEEB0C /* Pods_XDComponent_Tests.framework */;
+			productReference = EA60028406A2A6E4963FA6FE1805C42F /* Pods_XDComponent_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F7AED5C5CFFBF1CB1ABB96CDE9325B25 /* XDComponent */ = {
+		E243F805069D284D215E92709BDE0E65 /* XDComponent-XDComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D687DEEE141375645EEF6950F6057579 /* Build configuration list for PBXNativeTarget "XDComponent" */;
+			buildConfigurationList = 6A81F02616C56B6E050386E2C6CAC5A5 /* Build configuration list for PBXNativeTarget "XDComponent-XDComponent" */;
 			buildPhases = (
-				A5C090334FE0B9BC2EBE362122FACFD3 /* Headers */,
-				323A200C785761247187B726926E4649 /* Sources */,
-				D888F5FCE5F296FA524EA42ED307920D /* Frameworks */,
-				5F137EBC6D9C56FEF50E19A83433B142 /* Resources */,
+				4CA10679A207BB87F7AC5BF9167DAB18 /* Sources */,
+				F2091F3DCC1D84B6FD42E0BC3B69E05E /* Frameworks */,
+				882D9712C7280830B5DC8477BB3D2FF7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "XDComponent-XDComponent";
+			productName = "XDComponent-XDComponent";
+			productReference = 7250FA95B0EF0E09D96161E7BBBA43BE /* XDComponent.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F7AED5C5CFFBF1CB1ABB96CDE9325B25 /* XDComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D687DEEE141375645EEF6950F6057579 /* Build configuration list for PBXNativeTarget "XDComponent" */;
+			buildPhases = (
+				2A2329C4766DC7E4AB7AF6EDEE8F52E8 /* Headers */,
+				3CE845F41FB848B959FD7F0F17E37A66 /* Sources */,
+				D888F5FCE5F296FA524EA42ED307920D /* Frameworks */,
+				EADB8382ABABE2B41A86C9CEA27939C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A8443241112EC1D4ADC3685400DD6F4 /* PBXTargetDependency */,
+			);
 			name = XDComponent;
 			productName = XDComponent;
-			productReference = 20B0FD8553D532C978EF3874E65A459C /* XDComponent.framework */;
+			productReference = 26E30280587A1C4241296542E03A710F /* XDComponent.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -342,22 +410,24 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1214F6504F9F354DCFF73C276891DD7C /* Products */;
+			productRefGroup = 6D38E838ED4C9549EA9213993AE04DDD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				27834FE3E405D854272DA957DF004136 /* Pods-XDComponent_Example */,
 				403ED72A75D22761016DC0E1EEB9EB08 /* Pods-XDComponent_Tests */,
 				F7AED5C5CFFBF1CB1ABB96CDE9325B25 /* XDComponent */,
+				E243F805069D284D215E92709BDE0E65 /* XDComponent-XDComponent */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5F137EBC6D9C56FEF50E19A83433B142 /* Resources */ = {
+		882D9712C7280830B5DC8477BB3D2FF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0B33EAA32E11EBA4D727C4E6E683E9 /* XDTestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,15 +445,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EADB8382ABABE2B41A86C9CEA27939C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392B9034D6CA7DCC872DC6BF16F2D28E /* XDComponent.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		323A200C785761247187B726926E4649 /* Sources */ = {
+		3CE845F41FB848B959FD7F0F17E37A66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1E74AB318E89CF70C2C24CA83D55333 /* BaseViewController.m in Sources */,
-				5EC1D0B9F44A5ECAAC9F7A7E044D0D26 /* XDComponent-dummy.m in Sources */,
+				A6D26D6312E31CBF4F593BFA03B078A2 /* BaseViewController.m in Sources */,
+				ABA31B54988BAA8716DF9C6988AC6C91 /* XDComponent-dummy.m in Sources */,
+				1E34BF9B0EF5B2E0B81C51EF80AF8208 /* XDTest.m in Sources */,
+				9C8B1625CACC07C62B29FCA3A8B35E33 /* XDTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +472,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7199579B453208122FF1C7325C8FA527 /* Pods-XDComponent_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA10679A207BB87F7AC5BF9167DAB18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +493,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5A8443241112EC1D4ADC3685400DD6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XDComponent-XDComponent";
+			target = E243F805069D284D215E92709BDE0E65 /* XDComponent-XDComponent */;
+			targetProxy = 0B7A02FB252CE3E12D31DAEA3EB3EAE2 /* PBXContainerItemProxy */;
+		};
 		D071FD427808E13CFBA02E1E8AA4F6F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XDComponent;
@@ -421,11 +514,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		249D44866837049BF071447C290DBE48 /* Release */ = {
+		04E6F38D8CC79C1EF44FD473EE34EC56 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F899867569DBD8014BAE7108BB4AE43C /* Pods-XDComponent_Example.release.xcconfig */;
+			baseConfigurationReference = 5A40EB44F9A798A8024483F9B56CAB02 /* XDComponent.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -435,61 +527,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XDComponent_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/XDComponent/XDComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XDComponent/XDComponent-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XDComponent_Example/Pods-XDComponent_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/XDComponent/XDComponent.modulemap";
+				PRODUCT_MODULE_NAME = XDComponent;
+				PRODUCT_NAME = XDComponent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		4CC5A6FFF36CDFABDD1E263DA9443659 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1458FB3F04FB457FC36FD843A66FBAA /* Pods-XDComponent_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XDComponent_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XDComponent_Tests/Pods-XDComponent_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */ = {
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -521,8 +576,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -551,101 +604,23 @@
 			};
 			name = Release;
 		};
-		6987DC6DBCE40D8611115F1F1EAFA045 /* Release */ = {
+		0AA138FBEB38B30839C5FB59DB0E2107 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7CA7DBF793DF5233500DE25238482AA /* XDComponent.xcconfig */;
+			baseConfigurationReference = 5A40EB44F9A798A8024483F9B56CAB02 /* XDComponent.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XDComponent/XDComponent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XDComponent/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XDComponent";
+				INFOPLIST_FILE = "Target Support Files/XDComponent/ResourceBundle-XDComponent-XDComponent-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XDComponent/XDComponent.modulemap";
-				PRODUCT_MODULE_NAME = XDComponent;
 				PRODUCT_NAME = XDComponent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		97057FBCBAB7190C52C29C07F91E3683 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7CA7DBF793DF5233500DE25238482AA /* XDComponent.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XDComponent/XDComponent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XDComponent/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XDComponent/XDComponent.modulemap";
-				PRODUCT_MODULE_NAME = XDComponent;
-				PRODUCT_NAME = XDComponent;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		B624E966D2B90537ED58F54256BDDA95 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDD1D901BED34EA0D09BC3EA6553497B /* Pods-XDComponent_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XDComponent_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XDComponent_Tests/Pods-XDComponent_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B64E2C722A3EAD054D380F489370F012 /* Debug */ = {
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -677,8 +652,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -711,9 +684,9 @@
 			};
 			name = Debug;
 		};
-		B781DD9D085E18F7377DC21DFC7ACEA1 /* Debug */ = {
+		666125F51E40ED9FD1AB63C28FC1BB1B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8907C3E32A57AE63DD8BBAB472BE4874 /* Pods-XDComponent_Example.debug.xcconfig */;
+			baseConfigurationReference = 03EBB8A4627968FA7985358BE570E807 /* Pods-XDComponent_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -725,7 +698,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XDComponent_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-XDComponent_Example/Pods-XDComponent_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -744,14 +717,171 @@
 			};
 			name = Debug;
 		};
+		889BFB45E57465A533CE1C6B33124197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5BAACDBEA9F0E88E6AF71584F00CBB /* Pods-XDComponent_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XDComponent_Tests/Pods-XDComponent_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XDComponent_Tests/Pods-XDComponent_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6A22CF0006C63C7F515B24EEE13D88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91041E654188A1DEE61923EEA0DDEA58 /* Pods-XDComponent_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XDComponent_Tests/Pods-XDComponent_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XDComponent_Tests/Pods-XDComponent_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B11AC58CCA925C22BFA9D3CF5E066B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86DE78ECA83776932FF15FDDB4B552CC /* Pods-XDComponent_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XDComponent_Example/Pods-XDComponent_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XDComponent_Example/Pods-XDComponent_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF05A15C41848023C1CF098308CBCEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A40EB44F9A798A8024483F9B56CAB02 /* XDComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XDComponent";
+				INFOPLIST_FILE = "Target Support Files/XDComponent/ResourceBundle-XDComponent-XDComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XDComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E758BE3B322869B3072DA9651449FB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A40EB44F9A798A8024483F9B56CAB02 /* XDComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XDComponent/XDComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XDComponent/XDComponent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XDComponent/XDComponent.modulemap";
+				PRODUCT_MODULE_NAME = XDComponent;
+				PRODUCT_NAME = XDComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B64E2C722A3EAD054D380F489370F012 /* Debug */,
-				5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */,
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A81F02616C56B6E050386E2C6CAC5A5 /* Build configuration list for PBXNativeTarget "XDComponent-XDComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA138FBEB38B30839C5FB59DB0E2107 /* Debug */,
+				BF05A15C41848023C1CF098308CBCEC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -759,8 +889,8 @@
 		83B2258E266DCA9048933091BB4DA1B3 /* Build configuration list for PBXNativeTarget "Pods-XDComponent_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B781DD9D085E18F7377DC21DFC7ACEA1 /* Debug */,
-				249D44866837049BF071447C290DBE48 /* Release */,
+				666125F51E40ED9FD1AB63C28FC1BB1B /* Debug */,
+				B11AC58CCA925C22BFA9D3CF5E066B30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -768,8 +898,8 @@
 		83F63B78A96D489AE0022821E62418E7 /* Build configuration list for PBXNativeTarget "Pods-XDComponent_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B624E966D2B90537ED58F54256BDDA95 /* Debug */,
-				4CC5A6FFF36CDFABDD1E263DA9443659 /* Release */,
+				889BFB45E57465A533CE1C6B33124197 /* Debug */,
+				A6A22CF0006C63C7F515B24EEE13D88B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -777,8 +907,8 @@
 		D687DEEE141375645EEF6950F6057579 /* Build configuration list for PBXNativeTarget "XDComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97057FBCBAB7190C52C29C07F91E3683 /* Debug */,
-				6987DC6DBCE40D8611115F1F1EAFA045 /* Release */,
+				04E6F38D8CC79C1EF44FD473EE34EC56 /* Debug */,
+				E758BE3B322869B3072DA9651449FB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

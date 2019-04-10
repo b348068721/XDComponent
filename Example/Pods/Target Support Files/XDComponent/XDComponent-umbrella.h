@@ -10,7 +10,10 @@
 #endif
 #endif
 
+#import "XDComponent.h"
 #import "BaseViewController.h"
+#import "XDTest.h"
+#import "XDTestViewController.h"
 
 FOUNDATION_EXPORT double XDComponentVersionNumber;
 FOUNDATION_EXPORT const unsigned char XDComponentVersionString[];

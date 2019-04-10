@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XDComponent'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'try to new XDComponent.init controller with xib'
 
 # This description is used to generate tags and improve search results.
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+'Component Test'
+  DESC
 
   s.homepage         = 'https://github.com/b348068721/XDComponent'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -29,19 +29,21 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'XDComponent/Classes/**/*'
+  s.public_header_files = 'XDComponent/Classes/XDComponent.h'
+  s.source_files = 'XDComponent/Classes/XDComponent.h'
   s.subspec 'BaseViewController' do |ss|
       ss.source_files = 'XDComponent/Classes/BaseViewController/*.{h,m}'
+      ss.public_header_files = 'XDComponent/Classes/BaseViewController/BaseViewController.h'
   end
   s.subspec 'Test' do |ss|
-      ss.source_files = 'XDComponent/Classes/Test/*.{h,m}'
+    ss.source_files = 'XDComponent/Classes/Test/*.{h,m}'
+    ss.dependency 'XDComponent/BaseViewController'
+    ss.public_header_files = 'XDComponent/Classes/Test/*.h'
   end
   s.resource_bundles = {
     'XDComponent' => ['XDComponent/Assets/*']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
